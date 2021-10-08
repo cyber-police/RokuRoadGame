@@ -1,0 +1,32 @@
+<component
+    name="Car"
+    extends="Group">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/elements/Car.brs" />
+
+    <interface>
+        <field
+            id="positionX"
+            type="integer"
+            alwaysNotify="true"
+            onChange="onSetPosition" />
+
+        <field
+            id="carHeight"
+            type="integer" />
+
+        <field
+            id="carWidth"
+            type="integer" />
+
+        <field
+            id="carTranslation"
+            type="array" />
+
+    </interface>
+
+    <children>
+        <Poster id="carPoster" />
+    </children>
+</component>

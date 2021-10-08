@@ -1,0 +1,24 @@
+<component
+    name="Character"
+    extends="Group">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/elements/Character.brs" />
+
+    <interface>
+        <field
+            id="characterTranslation"
+            type="array" />
+
+        <field
+            id="kill"
+            type="boolean"
+            alwaysNotify="true"
+            onChange="onKill" />
+    </interface>
+
+    <children>
+        <Poster id="character" />
+    </children>
+
+</component>

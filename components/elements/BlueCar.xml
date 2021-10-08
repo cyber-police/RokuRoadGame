@@ -1,0 +1,8 @@
+<component
+    name="BlueCar"
+    extends="Car">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/elements/BlueCar.brs" />
+
+</component>

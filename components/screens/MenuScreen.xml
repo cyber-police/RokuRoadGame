@@ -1,0 +1,44 @@
+<component
+    name="MenuScreen"
+    extends="Group">
+
+    <interface>
+        <field
+            id="play"
+            type="boolean"
+            alwaysNotify="true" />
+
+        <field
+            id="quit"
+            type="boolean"
+            alwaysNotify="true" />
+
+        <field
+            id="playButtonPressed"
+            type="boolean"
+            alwaysNotify="true" />
+
+        <field
+            id="quitButtonPressed"
+            type="boolean"
+            alwaysNotify="true" />
+    </interface>
+
+    <children>
+        <Rectangle id="background_full" />
+        <Rectangle id="background" />
+        <Rectangle id="background2" />
+
+        <Group id="titleGroup" />
+
+        <LayoutGroup id="buttonsGroup">
+            <CustomButton id="playButton" />
+            <CustomButton id="qiutButton" />
+        </LayoutGroup>
+    </children>
+
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/screens/MenuScreen.brs" />
+
+</component>

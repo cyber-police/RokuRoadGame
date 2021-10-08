@@ -1,0 +1,8 @@
+<component
+    name="PinkCar"
+    extends="Car">
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/elements/PinkCar.brs" />
+
+</component>

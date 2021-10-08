@@ -1,0 +1,20 @@
+<component
+    name="MainScene"
+    extends="Scene">
+
+    <interface>
+        <field
+            id="appExit"
+            type="boolean"
+            alwaysNotify="true" />
+
+        <field
+            id="backgroundColor"
+            type="color" />
+    </interface>
+
+    <script
+        type="text/brightscript"
+        uri="pkg:/components/MainScene.brs" />
+
+</component>
